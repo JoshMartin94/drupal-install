@@ -17,13 +17,19 @@
     "require": {
         "composer/installers": "^2.0",
         "drupal/admin_toolbar": "^3.4",
+        "drupal/captcha": "^2.0",
         "drupal/core-composer-scaffold": "^10.2",
         "drupal/core-project-message": "^10.2",
         "drupal/core-recommended": "^10.2",
+        "drupal/field_formatter_class": "^1.6",
         "drupal/metatag": "^2.0",
         "drupal/upgrade_status": "^4.3",
-        "drupal/webform": "^6.2"
-        
+        "drupal/recaptcha": "^3.2",
+        "drupal/simple_sitemap": "^4.1",
+        "drupal/token": "^1.14",
+        "drupal/token_filter": "^2.1",
+        "drupal/webform": "^6.2",
+        "drupal/yoast_analysis": "^1.1"
     },
     "conflict": {
         "drupal/drupal": "*"
