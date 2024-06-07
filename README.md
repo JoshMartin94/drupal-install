@@ -14,4 +14,4 @@ mkdir test-install && cd test-install && git clone https://github.com/JoshMartin
  ------- If you already created your parent folder, run this script -------
 ****************************************************************************
 
-git clone https://github.com/JoshMartin94/drupal-install.git && mv drupal-install/composer.json ./ && find ./drupal-install -type f -and ! \( -iwholename '*.cgi' -or -iwholename '*.pl' \) -exec chmod 644 '{}' ';' && rm -r drupal-install && composer install && composer update
+git clone https://github.com/JoshMartin94/drupal-install.git && mv drupal-install/composer.json ./ && find drupal-install -type f -not \( -iname "*.cgi" -or -iname "*.pl" \) -exec chmod 644 '{}' \; && rm -r drupal-install && composer install && composer update
